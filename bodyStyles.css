@@ -1,0 +1,13 @@
+/* Strongest body override */
+body, html {
+    background-color: #f4f4f4 !important;  /* Ensures background color */
+    font-family: Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #333 !important;  /* Ensures text color */
+}
+
+/* Ensure no external styles affect body */
+body * {
+    box-sizing: border-box !important;
+}
